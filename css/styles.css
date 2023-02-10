@@ -1,0 +1,371 @@
+* {
+	margin: 0;
+}
+
+.main-page {
+	display: flex;
+}
+
+.popular-products {
+	width: 85.48%;
+	padding: 50px 70px 50px 35px;
+	height: 566px;
+	background-color: #fff;
+	box-sizing: border-box;
+	border-top: 7px solid #F5F5F5;
+	border-bottom: 50px solid #F5F5F5;
+	border-right: 55px solid #F5F5F5;
+}
+
+.popular-products__text {
+	display: flex;
+	margin-left: 57px;
+	gap: 10px;
+	font-family: sans-serif;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.popular-products__title {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.popular-products__recently-bought {
+	font-size: 18px;
+	border-bottom: 1px dotted #75787A;
+	font-weight: 400;
+}
+
+.popular-products__recently-bought-link {
+	text-decoration: none;
+	color: #75787A;
+}
+
+.popular-products__interest {
+	font-size: 18px;
+	border-bottom: 1px dotted #75787A;
+	font-weight: 400;
+}
+
+.popular-products__interes-link {
+	text-decoration: none;
+	color: #75787A;
+}
+
+.container {
+	display: flex;
+}
+
+.container__product-switcher {
+	margin-right: 63px;
+	height: 40px;
+	width: 40px;
+	align-self: center;
+	border-radius: 5px;
+	border: 2px solid #ECF0F4;
+	background-color: #fff;
+}
+
+.second {
+	margin-right: 0;
+	margin-left: -270px;
+}
+
+.second:hover, .container__product-switcher:hover {
+	cursor: pointer;	
+}
+
+.products {
+	display: flex;
+	gap: 20px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.products__item {
+	width: 18.125%;
+	background-color: #fff;
+	height: 360px;
+	box-sizing: border-box;
+	border: 2px solid #F6F8FA;
+	border-radius: 2%;
+}
+
+.products__item-preview-nofoto {
+	width: 100%;
+	height: 240px;
+	background-color: #F6F7FB;
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	border-top-left-radius: 2%;
+	border-top-right-radius: 2%;
+}
+
+.plant {
+	min-width: 100%;
+}
+
+.clocks {
+	min-width: 100%;
+	position: relative;
+}
+
+.hit::before {
+	content: "";
+	position: absolute;
+	background-image: url('../images/Стикер.png');
+	width: 50px;
+	height: 50px;
+	top: 20px;
+	left: 20px;
+	z-index: 999;
+}
+
+.ring {
+	min-width: 100%;
+}
+
+.new::before {
+	content: "";
+	position: absolute;
+	background-image: url('../images/Стикер (1).png');
+	width: 50px;
+	height: 50px;
+	top: 20px;
+	left: 20px;
+	z-index: 999;
+}
+
+.products__item-buttons {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.products__item-like {
+	display: block;
+	border-radius: 50%;
+	border: 0;
+	background-color: #fff;
+	margin-bottom: 6px;
+}
+
+.products__item-like:hover {
+	cursor: pointer;
+}
+
+.products__item-weight {
+	display: block;
+	border-radius: 50%;
+	border: 0;
+	background-color: #fff;
+}
+
+.products__item-weight:hover {
+	cursor: pointer;
+}
+
+.button-like {
+	width: 17px;
+	height: 17px;
+}
+
+.button-weight {
+	width: 17px;
+	height: 17px;
+}
+
+.products__item-first-nofoto {
+	font-family: sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #E7E8EC;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	align-self: center;
+}
+
+.products__item-switcher {
+	display: flex;
+	position: absolute;
+	gap: 4px;
+	bottom: 10px;
+	left: 30%
+}
+
+.products__item-switcher-item {
+	display: block;
+	width: 20px;
+	height: 2px;
+	background-color: #DFE0E4;
+}
+
+.products__item-switcher-item-first {
+	background-color: #F1E8B7;
+}
+
+.products__item-description {
+	font-family: sans-serif;
+	box-sizing: border-box;
+	padding: 10px 18px;
+}
+
+.products__item-description-title {
+	font-weight: 600;
+	font-size: 11px;
+	text-align: center;
+}
+
+.products__item-description-price {
+	font-weight: 800;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 3px;
+}
+
+.withsale::after {
+	content: '810 ₽';
+	text-decoration: line-through;
+	font-weight: 400;
+	font-size: 12px;
+	color: #8D9295;
+	margin-left: 3px;
+}
+
+.radius {
+	font-size: 9px;
+}
+
+.products__item-description-counter {
+	border: 2px solid #F6F8FA;
+	margin-top: 3px;
+	color: #8E8E8E;
+	box-sizing: border-box;
+	padding: 5px 5px;
+	width: 40%;
+	justify-content: space-between;
+	display: inline-flex;
+	height: 40px;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.button-mines {
+	border: 0;
+	background-color: #fff;
+	color: #929496;
+}
+
+.button-mines:hover {
+	cursor: pointer;
+}
+
+.button-plus {
+	border: 0;
+	background-color: #fff;
+	color: #929496;
+}
+
+.button-plus:hover {
+	cursor: pointer;
+}
+
+.products__item-description-buy {
+	width: 56%;
+	box-sizing: border-box;
+	padding: 5px 5px 5px 25px;
+	border: 2px solid #F6F8FA;
+	background-color: #F0D164;
+	border-radius: 5px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+}
+
+.products__item-description-buy:hover {
+	cursor: pointer;
+}
+
+.products__item-description-buy-text {
+	font-weight: 600;
+}
+
+.products__item-description-buy-text::before {
+	content: '';
+	background-image: url('../images/free-icon-trolley-cart-4175270.png');
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 8px;
+	left: 10px;
+
+}
+
+
+.sidebar {
+	width: 12.52%;
+	height: 480px;
+	background-color: #fff;
+	border-top: 7px solid #F5F5F5;
+	border-bottom: 59px solid #F5F5F5;
+	border-right: 30px solid #F5F5F5;
+	padding: 10px;
+}
+
+.sidebar__product {
+	width: 100%;
+}
+
+.sidebar__text {
+	font-family: sans-serif;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.sidebar__title {
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 26px;
+}
+
+.sidebar__recently-bought-link {
+	text-decoration: none;
+	color: #535658;
+	border-bottom: 1px dotted #535658;
+	font-size: 14px;
+}
+
+.sidebar__interes-link {
+	text-decoration: none;
+	color: #535658;
+	border-bottom: 1px dotted #535658;
+	font-size: 14px;
+}
+
+.sidebar__description-buy {
+	width: 100%;
+	display: block;
+}
+
+.sidebar__railcar::before {
+	content: '';
+	background-image: url('../images/free-icon-trolley-cart-4175270.png');
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 8px;
+	left: 40px;
+}
